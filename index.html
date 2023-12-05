@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <title>iFix</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./images/logo.png" alt="Logo de iFix">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- banner -->
+        <section id="portada">
+            <h1>Somos tu Proveedor de servicios autorizado Apple</h1>
+            <p>Nuestros técnicos formados por <span class="marca">Apple</span> utilizan piezas originales de la marca,
+                de modo que puedes
+                confiarnos cualquiera de tus dispositivos.</p>
+            <a class="button" href="./pages/contacto.html">Contáctanos</a>
+        </section>
+
+        <!-- servicios -->
+        <section id="container servicios">
+            <h2>¿En qué te podemos ayudar?</h2>
+
+            <div class="row cardsContainer">
+
+                <div class="col">
+                    <div class="cardServicio">
+                        <h3 class="">Reparaciones y garantías</h3>
+                        <p>Somos expertos en reparaciones</p>
+                        <a class="button" href="./pages/servicios.html">Más información</a>
+                        <img src="./images/drill.svg" alt="Taladro">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="cardServicio">
+                        <h3>Cambio de batería</h3>
+                        <p>¿La batería te dura cada vez menos?</p>
+                        <a class="button" href="./pages/servicios.html">Más información</a>
+                        <img src="./images/phone.svg" alt="Celular">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="cardServicio">
+                        <h3>Servicio técnico a domicilio</h3>
+                        <p>Más alcance que nunca</p>
+                        <a class="button" href="./pages/servicios.html">Más información</a>
+                        <img src="./images/laptop.svg" alt="Laptop">
+                    </div>
+                </div>
+       
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="footerColumns">
+            <div>
+                <h3>Información de contacto</h3>
+                <p>Dirección: Calle Falsa 123</p>
+                <p>Teléfono: 555-555-5555</p>
+                <p>Email: info@misitio.com</p>
+            </div>
+
+            <div class="footerEnlaces">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footerRedes">
+                <h4>Síguenos</h4>
+                <ul>
+                    <li><a href="#"><img width="50" src="./images/facebook.svg" alt="Logo de Facebook"></a></li>
+                    <li><a href="#"><img width="50" src="./images/twitter.svg" alt="Logo de Twitter"></a></li>
+                    <li><a href="#"><img width="50" src="./images/instagram.svg" alt="Logo de instagram"></a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Suscripción</h4>
+                <form>
+                    <div>
+                        <input type="email" id="email" placeholder="Ingresa tu email">
+                    </div>
+                    <button type="submit">Suscribir</button>
+                </form>
+            </div>
+
+        </div>
+
+        <a class="button" href="#">Volver arriba</a>
+
+        <div>
+            <p>Copyright © 2023 iFix</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
